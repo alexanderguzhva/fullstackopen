@@ -1,0 +1,6 @@
+note over browser:
+user clicks 'save', so a single POST request is sent
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: created, 201
